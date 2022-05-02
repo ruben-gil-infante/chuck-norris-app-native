@@ -9,4 +9,9 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
     public abstract void setListeners();
     public abstract void showProgressBar();
     public abstract void hideProgressBar();
+
+    @Override
+    public void onBackPressed() {
+
+    }
 }
