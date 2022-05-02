@@ -39,7 +39,7 @@ public class ShowPhraseActivity extends BaseActivityWithViewModel<ShowPhraseView
         obtainFirstPhrase();
     }
 
-    private void injectViewModel() {
+    public void injectViewModel() {
         viewModel = new ViewModelProvider(this).get(ShowPhraseViewModel.class);
     }
 
